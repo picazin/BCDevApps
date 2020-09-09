@@ -1,0 +1,4 @@
+{
+    "mandatoryAffixes": [ "DEV" ],
+    "supportedCountries": ["US","ES"]
+}

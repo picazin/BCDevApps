@@ -1,0 +1,39 @@
+{
+  "id": "c92417ca-1b90-4c0b-9a99-479016654d2a",
+  "name": "BC Developer Apps",
+  "publisher": "picazin.dev",
+  "version": "0.1.0.0",
+  "brief": "Some useful tools for BC developers",
+  "description": "https://picazin.dev",
+  "privacyStatement": "https://picazin.dev",
+  "EULA": "https://picazin.dev",
+  "help": "https://picazin.dev",
+  "url": "https://picazin.dev",
+  "logo": "./src/logo/logo.png",
+  "dependencies": [
+    {
+      "id": "63ca2fa4-4f03-4f2b-a480-172fef340d3f",
+      "publisher": "Microsoft",
+      "name": "System Application",
+      "version": "16.0.0.0"
+    },
+    {
+      "id": "437dbf0e-84ff-417a-965d-ed2bb9650972",
+      "publisher": "Microsoft",
+      "name": "Base Application",
+      "version": "16.0.0.0"
+    }
+  ],
+  "screenshots": [],
+  "platform": "16.0.0.0",
+  "idRanges": [
+    {
+      "from": 83260,
+      "to": 83269
+    }
+  ],
+  "features": ["TranslationFile"],
+  "contextSensitiveHelpUrl": "https://picazin.dev",
+  "showMyCode": true,
+  "runtime": "5.0"
+}

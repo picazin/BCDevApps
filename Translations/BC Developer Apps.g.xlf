@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="en-US" original="BC Developer Apps">
+    <body>
+      <group id="body">
+        <trans-unit id="Page 4218816578 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Select Company</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DEV Change Company - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4218816578 - Control 2961552353 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Name field. If pressed, opens the selected company.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DEV Change Company - Control Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4218816578 - Control 2578412327 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Display Name field</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DEV Change Company - Control Display Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2987897557 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Kill Sessions</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DEV Kill Session - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2987897557 - Control 2708250016 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the User ID field</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DEV Kill Session - Control User ID - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2987897557 - Control 1829104285 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Session ID field</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DEV Kill Session - Control Session ID - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2987897557 - Control 3195452294 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Login Datetime field</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DEV Kill Session - Control Login Datetime - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2987897557 - Control 1212258331 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Client Type field</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DEV Kill Session - Control Client Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2987897557 - Control 2955251347 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Client Computer Name field</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DEV Kill Session - Control Client Computer Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2987897557 - Control 3975658731 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Server Instance ID field</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DEV Kill Session - Control Server Instance ID - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2987897557 - Control 1960287909 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Server Instance Name field</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DEV Kill Session - Control Server Instance Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2987897557 - Control 3149170790 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Database Name field</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DEV Kill Session - Control Database Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2987897557 - Action 450385134 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Kill Session</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DEV Kill Session - Action Kill - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2987897557 - Action 450385134 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Kill selected session</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DEV Kill Session - Action Kill - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3763889872 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View Table</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DEV View Table - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3763889872 - Control 3711240756 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Object ID field</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DEV View Table - Control Object ID - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3763889872 - Control 1418569422 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Object Name field</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DEV View Table - Control Object Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3763889872 - Control 3811799877 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Object Caption field</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DEV View Table - Control Object Caption - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3763889872 - Control 1126547218 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No. of Records</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DEV View Table - Control NoOfRecords - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3763889872 - Control 1126547218 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the No. of Records" field</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DEV View Table - Control NoOfRecords - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3763889872 - Action 2477294019 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Delete All Data</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DEV View Table - Action Delete - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3763889872 - Action 2477294019 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Delete all table records</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DEV View Table - Action Delete - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3763889872 - Action 2477294019 - Method 1377591017 - NamedType 669701587" size-unit="char" translate="yes" xml:space="preserve">
+          <source>All records from %1 will be deleted. Continue?</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Table Name</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DEV View Table - Action Delete - Method OnAction - NamedType DeleteRecordsQst</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
