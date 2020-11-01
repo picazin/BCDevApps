@@ -89,7 +89,7 @@ page 83262 "DEV Kill Session"
                     if "Session ID" = SessionId() then
                         exit;
 
-                    KillMsg := StrSubstNo(KillLbl, "User ID");
+                    KillMsg := StrSubstNo(KillLbl, UserID());
                     ClearLastError();
                     if not StopSession("Session ID", KillMsg) then
                         Error(GetLastErrorText);
