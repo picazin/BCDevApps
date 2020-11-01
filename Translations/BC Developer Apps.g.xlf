@@ -18,6 +18,46 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page DEV Change Company - Control Display Name - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 12730111 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Company Information Badge Management</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DEV Company Badge - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 12730111 - Control 2961552353 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Name field</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DEV Company Badge - Control Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 12730111 - Control 2855742669 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Company Badge Style</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DEV Company Badge - Control System Indicator Style - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 12730111 - Control 2855742669 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Dark Blue,Light Blue,Dark Green,Light Green,Dark Yellow,Light Yellow,Red,Orange,Deep Purple,Bright Purple</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DEV Company Badge - Control System Indicator Style - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="Page 12730111 - Control 2855742669 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies if you want to apply a certain style to the Company Badge. Having different styles on badges can make it easier to recognize the company that you are currently working with.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DEV Company Badge - Control System Indicator Style - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 12730111 - Control 2432161483 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Company Badge Text</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DEV Company Badge - Control System Indicator Text - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 12730111 - Control 2432161483 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies text that you want to use in the Company Badge. Only the first 4 characters will be shown in the badge.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DEV Company Badge - Control System Indicator Text - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 12730111 - NamedType 1015598152" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The Company Badge settings have changed. Refresh the browser (Ctrl+F5) to update the badge.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DEV Company Badge - NamedType CompanyBadgeRefreshPageTxt</note>
+        </trans-unit>
         <trans-unit id="Page 2987897557 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Kill Sessions</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -72,6 +112,11 @@
           <source>Kill selected session</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page DEV Kill Session - Action Kill - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2987897557 - Action 450385134 - Method 1377591017 - NamedType 1166150868" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 killed your current session.</source>
+          <note from="Developer" annotates="general" priority="2">%1 User Id</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DEV Kill Session - Action Kill - Method OnAction - NamedType KillLbl</note>
         </trans-unit>
         <trans-unit id="Page 3763889872 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>View Table</source>

@@ -1,11 +1,11 @@
 page 83260 "DEV Change Company"
 {
-    Caption = 'Select Company';
-    PageType = List;
-    UsageCategory = Lists;
     ApplicationArea = All;
-    SourceTable = Company;
+    Caption = 'Select Company';
     Editable = false;
+    PageType = List;
+    SourceTable = Company;
+    UsageCategory = Tasks;
 
     layout
     {

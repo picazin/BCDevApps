@@ -1,11 +1,11 @@
 page 83262 "DEV Kill Session"
 {
-    Caption = 'Kill Sessions';
-    PageType = List;
-    UsageCategory = Lists;
     ApplicationArea = All;
-    SourceTable = "Active Session";
+    Caption = 'Kill Sessions';
     Editable = false;
+    PageType = List;
+    SourceTable = "Active Session";
+    UsageCategory = Tasks;
 
     layout
     {
@@ -72,9 +72,9 @@ page 83262 "DEV Kill Session"
         {
             action(Kill)
             {
-                Image = Stop;
-                Caption = 'Kill Session';
                 ApplicationArea = All;
+                Caption = 'Kill Session';
+                Image = Stop;
                 Promoted = true;
                 PromotedCategory = Process;
                 PromotedIsBig = true;
@@ -84,11 +84,12 @@ page 83262 "DEV Kill Session"
                 trigger OnAction();
                 var
                     KillMsg: Text;
+                    KillLbl: Label '%1 killed your current session.', Comment = '%1 User Id';
                 begin
                     if "Session ID" = SessionId() then
                         exit;
 
-                    KillMsg := StrSubstNo('%1 killed your current session.', "User ID");
+                    KillMsg := StrSubstNo(KillLbl, "User ID");
                     ClearLastError();
                     if not StopSession("Session ID", KillMsg) then
                         Error(GetLastErrorText);

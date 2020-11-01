@@ -1,12 +1,12 @@
 page 83261 "DEV View Table"
 {
-    Caption = 'View Table';
-    PageType = List;
-    UsageCategory = Lists;
     ApplicationArea = All;
+    Caption = 'View Table';
+    Editable = false;
+    PageType = List;
     SourceTable = AllObjWithCaption;
     SourceTableView = where("Object Type" = filter(Table));
-    Editable = false;
+    UsageCategory = Tasks;
 
     layout
     {
@@ -36,8 +36,8 @@ page 83261 "DEV View Table"
                 }
                 field(NoOfRecords; NoOfRecords)
                 {
-                    Caption = 'No. of Records';
                     ApplicationArea = All;
+                    Caption = 'No. of Records';
                     ToolTip = 'Specifies the value of the No. of Records" field';
                 }
             }
@@ -50,9 +50,9 @@ page 83261 "DEV View Table"
         {
             action("Delete")
             {
-                Image = Delete;
-                Caption = 'Delete All Data';
                 ApplicationArea = All;
+                Caption = 'Delete All Data';
+                Image = Delete;
                 Promoted = true;
                 PromotedCategory = Process;
                 PromotedIsBig = true;
