@@ -3,30 +3,65 @@
   <file datatype="xml" source-language="en-US" target-language="en-US" original="BC Developer Apps">
     <body>
       <group id="body">
+        <trans-unit id="Codeunit 3216896962 - Method 1024535495 - NamedType 688848490" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Delete all data from current journal?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit DEV Journals Management - Method DeleteItemJournalData - NamedType DeleteAllQst</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3216896962 - Method 2876961282 - NamedType 1257001493" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item_Jounal_Initial_Stock.csv</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit DEV Journals Management - Method DemoItemJnlInitialStockFile - NamedType FilenameLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3216896962 - Method 2876961282 - NamedType 3560917688" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CSV Files (*.csv)|*.csv</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit DEV Journals Management - Method DemoItemJnlInitialStockFile - NamedType CSVLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3216896962 - Method 4254507022 - NamedType 1257001493" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Whse_Journal_Initial_Stock.csv</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit DEV Journals Management - Method DemoWhseJnlInitialStockFile - NamedType FilenameLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3216896962 - Method 4254507022 - NamedType 3560917688" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CSV Files (*.csv)|*.csv</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit DEV Journals Management - Method DemoWhseJnlInitialStockFile - NamedType CSVLbl</note>
+        </trans-unit>
         <trans-unit id="Page 4218816578 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Select Company</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page DEV Change Company - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 4218816578 - Control 2961552353 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the Name field. If pressed, opens the selected company.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page DEV Change Company - Control Name - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 4218816578 - Control 2578412327 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Display Name field</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page DEV Change Company - Control Display Name - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 4218816578 - Control 2961552353 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Name field. If pressed, opens the selected company.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DEV Change Company - Control Name - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 12730111 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Company Information Badge Management</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page DEV Company Badge - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 12730111 - NamedType 1015598152" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The Company Badge settings have changed. Refresh the browser (Ctrl+F5) to update the badge.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DEV Company Badge - NamedType CompanyBadgeRefreshPageTxt</note>
+        </trans-unit>
         <trans-unit id="Page 12730111 - Control 2961552353 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Name field</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page DEV Company Badge - Control Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 12730111 - Control 2855742669 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies if you want to apply a certain style to the Company Badge. Having different styles on badges can make it easier to recognize the company that you are currently working with.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DEV Company Badge - Control System Indicator Style - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 12730111 - Control 2855742669 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Company Badge Style</source>
@@ -38,55 +73,40 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page DEV Company Badge - Control System Indicator Style - Property OptionCaption</note>
         </trans-unit>
-        <trans-unit id="Page 12730111 - Control 2855742669 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies if you want to apply a certain style to the Company Badge. Having different styles on badges can make it easier to recognize the company that you are currently working with.</source>
+        <trans-unit id="Page 12730111 - Control 2432161483 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies text that you want to use in the Company Badge. Only the first 4 characters will be shown in the badge.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page DEV Company Badge - Control System Indicator Style - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DEV Company Badge - Control System Indicator Text - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 12730111 - Control 2432161483 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Company Badge Text</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page DEV Company Badge - Control System Indicator Text - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 12730111 - Control 2432161483 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies text that you want to use in the Company Badge. Only the first 4 characters will be shown in the badge.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page DEV Company Badge - Control System Indicator Text - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 12730111 - NamedType 1015598152" size-unit="char" translate="yes" xml:space="preserve">
-          <source>The Company Badge settings have changed. Refresh the browser (Ctrl+F5) to update the badge.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page DEV Company Badge - NamedType CompanyBadgeRefreshPageTxt</note>
-        </trans-unit>
         <trans-unit id="Page 2987897557 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Kill Sessions</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page DEV Kill Session - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 2987897557 - Control 2708250016 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the User ID field</source>
+        <trans-unit id="Page 2987897557 - Control 2955251347 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Client Computer Name field</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page DEV Kill Session - Control User ID - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 2987897557 - Control 1829104285 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the Session ID field</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page DEV Kill Session - Control Session ID - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 2987897557 - Control 3195452294 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the Login Datetime field</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page DEV Kill Session - Control Login Datetime - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DEV Kill Session - Control Client Computer Name - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2987897557 - Control 1212258331 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Client Type field</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page DEV Kill Session - Control Client Type - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 2987897557 - Control 2955251347 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the Client Computer Name field</source>
+        <trans-unit id="Page 2987897557 - Control 3149170790 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Database Name field</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page DEV Kill Session - Control Client Computer Name - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DEV Kill Session - Control Database Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2987897557 - Control 3195452294 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Login Datetime field</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DEV Kill Session - Control Login Datetime - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2987897557 - Control 3975658731 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Server Instance ID field</source>
@@ -98,20 +118,25 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page DEV Kill Session - Control Server Instance Name - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 2987897557 - Control 3149170790 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the Database Name field</source>
+        <trans-unit id="Page 2987897557 - Control 1829104285 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Session ID field</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page DEV Kill Session - Control Database Name - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DEV Kill Session - Control Session ID - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 2987897557 - Action 450385134 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Kill Session</source>
+        <trans-unit id="Page 2987897557 - Control 2708250016 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the User ID field</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page DEV Kill Session - Action Kill - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DEV Kill Session - Control User ID - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2987897557 - Action 450385134 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Kill selected session</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page DEV Kill Session - Action Kill - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2987897557 - Action 450385134 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Kill Session</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DEV Kill Session - Action Kill - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2987897557 - Action 450385134 - Method 1377591017 - NamedType 1166150868" size-unit="char" translate="yes" xml:space="preserve">
           <source>%1 killed your current session.</source>
@@ -123,6 +148,21 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page DEV View Table - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 3763889872 - Control 1126547218 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the No. of Records" field</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DEV View Table - Control NoOfRecords - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3763889872 - Control 1126547218 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No. of Records</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DEV View Table - Control NoOfRecords - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3763889872 - Control 3811799877 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Object Caption field</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DEV View Table - Control Object Caption - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 3763889872 - Control 3711240756 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Object ID field</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -133,35 +173,300 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page DEV View Table - Control Object Name - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 3763889872 - Control 3811799877 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the Object Caption field</source>
+        <trans-unit id="Page 3763889872 - Action 2477294019 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Delete all table records</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page DEV View Table - Control Object Caption - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 3763889872 - Control 1126547218 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>No. of Records</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page DEV View Table - Control NoOfRecords - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 3763889872 - Control 1126547218 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the No. of Records" field</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page DEV View Table - Control NoOfRecords - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DEV View Table - Action Delete - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 3763889872 - Action 2477294019 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Delete All Data</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page DEV View Table - Action Delete - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 3763889872 - Action 2477294019 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Delete all table records</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page DEV View Table - Action Delete - Property ToolTip</note>
-        </trans-unit>
         <trans-unit id="Page 3763889872 - Action 2477294019 - Method 1377591017 - NamedType 669701587" size-unit="char" translate="yes" xml:space="preserve">
           <source>All records from %1 will be deleted. Continue?</source>
           <note from="Developer" annotates="general" priority="2">%1 = Table Name</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page DEV View Table - Action Delete - Method OnAction - NamedType DeleteRecordsQst</note>
+        </trans-unit>
+        <trans-unit id="Report 1105726086 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Import Simple Warehouse Initial Stock</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report DEV Item Jnl. Initial Stock - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1105726086 - ReportDataItem 15074807 - Method 3245603402 - NamedType 2591265997" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Processing data #1################</source>
+          <note from="Developer" annotates="general" priority="2">#1 show data status</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report DEV Item Jnl. Initial Stock - ReportDataItem ImportData - Method OnAfterGetRecord - NamedType TextWindowLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1105726086 - ReportDataItem 15074807 - Method 3245603402 - NamedType 1755946433" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Done!</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report DEV Item Jnl. Initial Stock - ReportDataItem ImportData - Method OnAfterGetRecord - NamedType TextDoneLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1105726086 - ReportDataItem 15074807 - Method 72583909 - NamedType 2149025169" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 must have value.</source>
+          <note from="Developer" annotates="general" priority="2">%1 value</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report DEV Item Jnl. Initial Stock - ReportDataItem ImportData - Method OnPreDataItem - NamedType TextMandatoryErr</note>
+        </trans-unit>
+        <trans-unit id="Report 1105726086 - ReportDataItem 15074807 - Method 72583909 - NamedType 1257001493" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Filename</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report DEV Item Jnl. Initial Stock - ReportDataItem ImportData - Method OnPreDataItem - NamedType FilenameLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1105726086 - Control 3201496503 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Import data to...</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report DEV Item Jnl. Initial Stock - Control Import - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1105726086 - Control 3117834186 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Document No. field</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report DEV Item Jnl. Initial Stock - Control DocumentNo - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 1105726086 - Control 3117834186 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report DEV Item Jnl. Initial Stock - Control DocumentNo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1105726086 - Control 1111655207 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Include Header field</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report DEV Item Jnl. Initial Stock - Control IsHeaderIncluded - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 1105726086 - Control 1111655207 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Include Header</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report DEV Item Jnl. Initial Stock - Control IsHeaderIncluded - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1105726086 - Control 3437453232 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Posting Date field</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report DEV Item Jnl. Initial Stock - Control PostDate - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 1105726086 - Control 3437453232 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posting Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report DEV Item Jnl. Initial Stock - Control PostDate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1105726086 - Control 832092845 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Select Item Jnl. Batch Name field</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report DEV Item Jnl. Initial Stock - Control SetItemJnlBatch - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 1105726086 - Control 832092845 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Select Item Jnl. Batch Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report DEV Item Jnl. Initial Stock - Control SetItemJnlBatch - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1105726086 - Control 2025895209 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Select Item Jnl. Template field</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report DEV Item Jnl. Initial Stock - Control SetItemJnlTemplate - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 1105726086 - Control 2025895209 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Select Item Jnl. Template</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report DEV Item Jnl. Initial Stock - Control SetItemJnlTemplate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1105726086 - Control 1502664898 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Import data from...</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report DEV Item Jnl. Initial Stock - Control StockFile - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1105726086 - Control 793429008 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Select file to import field</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report DEV Item Jnl. Initial Stock - Control SetStockFile - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 1105726086 - Control 793429008 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Select file to import</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report DEV Item Jnl. Initial Stock - Control SetStockFile - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1105726086 - Control 793429008 - Method 2699620902 - NamedType 3560917688" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CSV Files (*.csv)|*.csv</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report DEV Item Jnl. Initial Stock - Control SetStockFile - Method OnAssistEdit - NamedType CSVLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3961938364 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Import Advanced Warehouse Initial Stock</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report DEV Whse. Jnl. Initial Stock - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3961938364 - ReportDataItem 15074807 - Method 3245603402 - NamedType 2591265997" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Processing data #1################</source>
+          <note from="Developer" annotates="general" priority="2">#1 show data status</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report DEV Whse. Jnl. Initial Stock - ReportDataItem ImportData - Method OnAfterGetRecord - NamedType TextWindowLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3961938364 - ReportDataItem 15074807 - Method 3245603402 - NamedType 1755946433" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Done!</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report DEV Whse. Jnl. Initial Stock - ReportDataItem ImportData - Method OnAfterGetRecord - NamedType TextDoneLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3961938364 - ReportDataItem 15074807 - Method 72583909 - NamedType 2149025169" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 must have value.</source>
+          <note from="Developer" annotates="general" priority="2">%1 value</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report DEV Whse. Jnl. Initial Stock - ReportDataItem ImportData - Method OnPreDataItem - NamedType TextMandatoryErr</note>
+        </trans-unit>
+        <trans-unit id="Report 3961938364 - ReportDataItem 15074807 - Method 72583909 - NamedType 1257001493" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Filename</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report DEV Whse. Jnl. Initial Stock - ReportDataItem ImportData - Method OnPreDataItem - NamedType FilenameLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3961938364 - Control 3201496503 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Import data to...</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report DEV Whse. Jnl. Initial Stock - Control Import - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3961938364 - Control 3117834186 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Document No. field</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report DEV Whse. Jnl. Initial Stock - Control DocumentNo - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 3961938364 - Control 3117834186 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report DEV Whse. Jnl. Initial Stock - Control DocumentNo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3961938364 - Control 1111655207 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Include Header field</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report DEV Whse. Jnl. Initial Stock - Control IsHeaderIncluded - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 3961938364 - Control 1111655207 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Include Header</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report DEV Whse. Jnl. Initial Stock - Control IsHeaderIncluded - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3961938364 - Control 3437453232 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Posting Date field</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report DEV Whse. Jnl. Initial Stock - Control PostDate - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 3961938364 - Control 3437453232 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posting Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report DEV Whse. Jnl. Initial Stock - Control PostDate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3961938364 - Control 131057730 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Select Whse. Jnl. Batch Name field</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report DEV Whse. Jnl. Initial Stock - Control SetJnlBatch - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 3961938364 - Control 131057730 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Select Warehouse Jnl. Batch Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report DEV Whse. Jnl. Initial Stock - Control SetJnlBatch - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3961938364 - Control 1511208935 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Select Whse. Jnl. Template field</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report DEV Whse. Jnl. Initial Stock - Control SetJnlTemplateName - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 3961938364 - Control 1511208935 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Select Warehouse Jnl. Template</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report DEV Whse. Jnl. Initial Stock - Control SetJnlTemplateName - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3961938364 - Control 1502664898 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Import data from...</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report DEV Whse. Jnl. Initial Stock - Control StockFile - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3961938364 - Control 793429008 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Select file to import field</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report DEV Whse. Jnl. Initial Stock - Control SetStockFile - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 3961938364 - Control 793429008 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Select file to import</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report DEV Whse. Jnl. Initial Stock - Control SetStockFile - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3961938364 - Control 793429008 - Method 2699620902 - NamedType 3560917688" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CSV Files (*.csv)|*.csv</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report DEV Whse. Jnl. Initial Stock - Control SetStockFile - Method OnAssistEdit - NamedType CSVLbl</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2368747086 - Action 250630281 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3940806096">
+          <source>Delete all data for selected journal.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension DEV Manage Item Journal - Action DEVDeleteJournal - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2368747086 - Action 250630281 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3940806096">
+          <source>Delete Journal</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension DEV Manage Item Journal - Action DEVDeleteJournal - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2368747086 - Action 735832592 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3940806096">
+          <source>Create initial stock file for use with Importe Initial Stock Action.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension DEV Manage Item Journal - Action DEVDemoInitialStockFile - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2368747086 - Action 735832592 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3940806096">
+          <source>Create Initial Stock Demo File</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension DEV Manage Item Journal - Action DEVDemoInitialStockFile - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2368747086 - Action 4282329512 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3940806096">
+          <source>Import initial stock for selected journal.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension DEV Manage Item Journal - Action DEVImportInitialStock - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2368747086 - Action 4282329512 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3940806096">
+          <source>Import Initial Stock</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension DEV Manage Item Journal - Action DEVImportInitialStock - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 924243611 - Action 250630281 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1129455602">
+          <source>Delete all data for selected journal.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension DEV Manage Item Journals - Action DEVDeleteJournal - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 924243611 - Action 250630281 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1129455602">
+          <source>Delete Journal</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension DEV Manage Item Journals - Action DEVDeleteJournal - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 924243611 - Action 735832592 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1129455602">
+          <source>Create initial stock file for use with Importe Initial Stock Action.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension DEV Manage Item Journals - Action DEVDemoInitialStockFile - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 924243611 - Action 735832592 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1129455602">
+          <source>Create Initial Stock Demo File</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension DEV Manage Item Journals - Action DEVDemoInitialStockFile - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 924243611 - Action 4282329512 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1129455602">
+          <source>Import initial stock for selected journal.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension DEV Manage Item Journals - Action DEVImportInitialStock - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 924243611 - Action 4282329512 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1129455602">
+          <source>Import Initial Stock</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension DEV Manage Item Journals - Action DEVImportInitialStock - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1490208384 - Action 735832592 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 176668909">
+          <source>Create initial stock file for use with Importe Initial Stock Action.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension DEV Manage Whse. Item Jnl - Action DEVDemoInitialStockFile - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1490208384 - Action 735832592 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 176668909">
+          <source>Create Initial Stock Demo File</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension DEV Manage Whse. Item Jnl - Action DEVDemoInitialStockFile - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1490208384 - Action 4282329512 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 176668909">
+          <source>Import initial stock for selected journal.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension DEV Manage Whse. Item Jnl - Action DEVImportInitialStock - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1490208384 - Action 4282329512 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 176668909">
+          <source>Import Initial Stock</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension DEV Manage Whse. Item Jnl - Action DEVImportInitialStock - Property Caption</note>
         </trans-unit>
       </group>
     </body>
